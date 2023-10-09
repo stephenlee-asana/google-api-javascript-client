@@ -1,0 +1,3 @@
+import 'gapi'
+
+export { gapi }
