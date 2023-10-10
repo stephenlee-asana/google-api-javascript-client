@@ -37,4 +37,9 @@ plus:{url:":socialhost:/:session_prefix:_/widget/render/badge?usegapi=1"},family
 person:{url:":socialhost:/:session_prefix:_/widget/render/person?usegapi=1"},savetodrive:{url:"https://drive.google.com/savetodrivebutton?usegapi=1",methods:["save"]},page:{url:":socialhost:/:session_prefix:_/widget/render/page?usegapi=1"},card:{url:":socialhost:/:session_prefix:_/hovercard/card"}}},h:"m;/_/scs/abc-static/_/js/k=gapi.lb.en.L92w_vMR5kE.O/d=1/rs=AHpOoo-GjmyR8TQVDKPrbqj5UQg7cU3cCA/m=__features__",u:"https://apis.google.com/js/api.js",hee:!0,dpo:!1,le:["scs"],glrp:false},platform:"backdrop blogger comments commentcount community donation family_creation follow hangout health page partnersbadge person playemm playreview plus plusone post ratingbadge savetoandroidpay savetodrive savetowallet sharetoclassroom shortlists signin2 surveyoptin visibility youtube ytsubscribe zoomableimage".split(" "),
 annotation:["interactivepost","recobar","signin2","autocomplete"]}});}).call(this);
 
+
+async function load(apiName) {
+    await new Promise(function(resolve) { window.gapi.load(apiName, resolve) });   
+} 
+
 module.exports = { gapi: window.gapi }
