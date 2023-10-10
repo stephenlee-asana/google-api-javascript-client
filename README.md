@@ -1,6 +1,6 @@
 # google-api-javascript-client
 
-[![NPM version](https://img.shields.io/npm/v/pkg-name?color=a1b858&label=)](https://www.npmjs.com/package/pkg-name)
+[![NPM version](https://img.shields.io/npm/v/google-api-javascript-client?color=a1b858&label=)](https://www.npmjs.com/package/google-api-javascript-client)
 
 This is a simple NPM wrapper around the [Google API Javascript Client](https://github.com/google/google-api-javascript-client), which is not published to NPM. This package also includes the TypeScript definitions for the client.
 
