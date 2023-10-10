@@ -1,7 +1,7 @@
 {
   "name": "google-api-javascript-client",
   "type": "module",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A NPM package for Google API JavaScript Client: https://github.com/google/google-api-javascript-client",
   "author": "ocavue <ocavue@gmail.com>",
   "license": "MIT",
@@ -32,8 +32,8 @@
     "build": "bun build.ts"
   },
   "devDependencies": {
-    "typescript": "^5.1.6",
-    "bun-types": "latest"
+    "bun-types": "latest",
+    "typescript": "^5.1.6"
   },
   "dependencies": {
     "@types/gapi": "^0.0.45"
